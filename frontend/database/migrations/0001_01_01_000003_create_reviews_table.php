@@ -1,0 +1,38 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('reviews', function (Blueprint $table) {
+            $table->id();
+            $table->string('app_id')->index();
+            $table->string('review_id')->unique();
+            $table->string('user_name')->nullable();
+            $table->integer('score')->default(0);
+            $table->timestamp('review_date')->nullable();
+            $table->text('content')->nullable();
+            $table->text('reply_content')->nullable();
+            $table->timestamps();
+            
+            // Index untuk optimasi query
+            $table->index(['app_id', 'score']);
+            $table->index(['app_id', 'review_date']);
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('reviews');
+    }
+};

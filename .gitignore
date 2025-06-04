@@ -1,0 +1,9 @@
+/vendor
+/node_modules
+.env
+*.log
+/public/storage
+/storage/*.key
+.idea
+.env.*
+backend/dana_reviews.csv
