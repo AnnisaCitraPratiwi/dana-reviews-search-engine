@@ -47,7 +47,8 @@ Dengan adanya sistem ini, pengguna dapat dengan cepat menemukan ulasan yang pali
    ```bash
    git clone https://github.com/AnnisaCitraPratiwi/dana-reviews-search-engine.git
    cd dana-reviews-search-engine
-````
+   ````
+
 2. **Instalasi dependencies backend**
    Pastikan kamu sudah punya Python dan pip.
    ```bash
@@ -63,4 +64,3 @@ Dengan adanya sistem ini, pengguna dapat dengan cepat menemukan ulasan yang pali
    ```bash
    Kunjungi `http://localhost:5000` untuk mengakses antarmuka pencarian ulasan.
 ````
----
