@@ -22,25 +22,12 @@ Dengan adanya sistem ini, pengguna dapat dengan cepat menemukan ulasan yang pali
 
 ## Anggota Tim
 
-| Nama                      | NPM         | Peran                         |
-|---------------------------|-------------|-------------------------------|
-| Annisa Citra Pratiwi      | 2217051008  | Frontend Developer & Dokumentasi |
-| Andria Laras Ramadhania   | 2217051016  | Backend Developer & Data Engineer |
-| Nazwa Sophia Nadine Effendi | 2217051049 | UI/UX Designer & Data Validator |
-| Fathiyya Jasmine          | 2217051026  | Analisis Sistem & Quality Assurance |
-
----
-
-## Struktur Proyek
-
-dana-reviews-search-engine/
-│
-├── backend/ # Kode backend dan logika pencarian TF-IDF & Cosine Similarity
-├── frontend/ # Kode frontend dan antarmuka pengguna
-├── .gitignore # Daftar file dan folder yang diabaikan Git
-├── README.md # Dokumentasi proyek (file ini)
-└── requirements.txt # Daftar dependency Python untuk backend
-
+| Nama                      | NPM         
+|---------------------------|-------------
+| Annisa Citra Pratiwi      | 2217051008  
+| Andria Laras Ramadhania   | 2217051016  
+| Nazwa Sophia Nadine Effendi | 2217051049 
+| Fathiyya Jasmine          | 2217051026  
 
 ---
 
