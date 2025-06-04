@@ -48,21 +48,19 @@ Dengan adanya sistem ini, pengguna dapat dengan cepat menemukan ulasan yang pali
    git clone https://github.com/AnnisaCitraPratiwi/dana-reviews-search-engine.git
    cd dana-reviews-search-engine
 ````
-
 2. **Instalasi dependencies backend**
    Pastikan kamu sudah punya Python dan pip.
-
    ```bash
    pip install -r backend/requirements.txt
-   ```
+   ````
 
 3. **Jalankan server backend**
-
    ```bash
    python backend/app.py
-   ```
+   ````
 
 4. **Buka aplikasi di browser**
+   ```bash
    Kunjungi `http://localhost:5000` untuk mengakses antarmuka pencarian ulasan.
-
+````
 ---
