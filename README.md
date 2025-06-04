@@ -1,8 +1,8 @@
 # Pengembangan Sistem Pencarian Ulasan Aplikasi Dana di Google Play Store  
 **Berbasis Kata Kunci Menggunakan TF-IDF dan Cosine Similarity**
+---
 ![Preview Dana Reviewa Search Engine](preview_project.jpeg)
 ---
-
 ## Deskripsi Proyek
 
 Proyek ini bertujuan mengembangkan sebuah sistem pencarian ulasan aplikasi Dana yang tersedia di Google Play Store dengan metode berbasis teks. Sistem menggunakan algoritma **TF-IDF (Term Frequency-Inverse Document Frequency)** untuk mengekstrak kata kunci penting dalam setiap ulasan dan **Cosine Similarity** untuk mengukur tingkat kemiripan antara kata kunci pencarian pengguna dengan ulasan yang ada.
