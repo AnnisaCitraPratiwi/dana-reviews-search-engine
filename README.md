@@ -27,7 +27,7 @@ Dengan adanya sistem ini, pengguna dapat dengan cepat menemukan ulasan yang pali
 | Annisa Citra Pratiwi      | 2217051008  
 | Andria Laras Ramadhania   | 2217051016  
 | Nazwa Sophia Nadine Effendi | 2217051049 
-| Fathiyya Jasmine          | 2217051026  
+| Rhalasya Eleina Putri       | 2217051083 
 
 ---
 
